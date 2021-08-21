@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+  }
+  
+  .loadcon{
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loadtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity:0;
+    transform: translate(-50%,-50%);
+  }
+  
+  .loadtext h5{
+    font-family: "Cyrene";
+    color: #fff;
+    font-size: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
